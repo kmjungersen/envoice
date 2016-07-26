@@ -1,0 +1,18 @@
+[
+  {
+    "outputFileName": "assets/dist/css/site.min.css",
+    "inputFiles": [
+        "assets/dist/css/site.css"
+    ]
+  }, {
+    "outputFileName": "assets/dist/js/site.min.js",
+    "inputFiles": [
+      "assets/js/site.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]
