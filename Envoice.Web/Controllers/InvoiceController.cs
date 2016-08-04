@@ -28,7 +28,7 @@ namespace Envoice.Web.Controllers
         [HttpPost]
         public IActionResult Create(InvoiceViewModel viewModel)
         {
-            
+            var foo = "adsfasdf"; 
 
             return View("New");
         }

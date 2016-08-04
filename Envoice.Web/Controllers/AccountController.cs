@@ -11,6 +11,7 @@ using Microsoft.Extensions.Logging;
 using Envoice.Web.Models;
 using Envoice.Web.Models.AccountViewModels;
 using Envoice.Web.Services;
+using Envoice.Data.Models;
 
 namespace Envoice.Web.Controllers
 {
