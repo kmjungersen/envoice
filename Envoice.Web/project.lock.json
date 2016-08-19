@@ -4426,6 +4426,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Envoice.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.6",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "netstandard1.6/Envoice.Data.dll": {}
+        },
+        "runtime": {
+          "netstandard1.6/Envoice.Data.dll": {}
+        }
       }
     }
   },
@@ -11126,10 +11139,16 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
       ]
+    },
+    "Envoice.Data/1.0.0": {
+      "type": "project",
+      "path": "../Envoice.Data/project.json",
+      "msbuildProject": "../Envoice.Data/Envoice.Data.xproj"
     }
   },
   "projectFileDependencyGroups": {
     "": [
+      "Envoice.Data >= 1.0.0-*",
       "Microsoft.ApplicationInsights.AspNetCore >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.Cookies >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics >= 1.0.0",
