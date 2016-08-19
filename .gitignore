@@ -1,0 +1,6 @@
+#  SOLUTION LEVEL GITIGNORE
+
+*/bin/
+*/obj/
+.vs/
+*.lock.json
