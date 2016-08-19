@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Envoice.Web.Models;
+using Envoice.Data.Models;
 
-namespace Envoice.Web.Data
+namespace Envoice.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
