@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using Envoice.Web.Models;
 using Envoice.Web.Models.ManageViewModels;
 using Envoice.Web.Services;
+using Envoice.Data.Models;
 
 namespace Envoice.Web.Controllers
 {

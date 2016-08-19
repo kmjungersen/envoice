@@ -9,9 +9,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Envoice.Web.Data;
 using Envoice.Web.Models;
 using Envoice.Web.Services;
+using Envoice.Data;
+using Envoice.Data.Models;
 
 namespace Envoice.Web
 {
